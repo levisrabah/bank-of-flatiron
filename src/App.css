@@ -1,38 +1,96 @@
-.App {
+.app-container {
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh; 
+  background-color: #f5f5f5; 
+}
+
+h1 {
+  background-color: indigo;
+  color: white;
+  font-family: sans-serif; 
+  font-size: 2em; 
+  text-align: center;
+  padding: 1em; 
+  margin: 0; 
+  border-bottom: 1px solid white; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th {
+  background-color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input, button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: lightslategray;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 20em; 
+}
+.add-transaction-btn {
+  display: block;
+  margin: auto;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 30em;
+}
+
+
+.search-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px; 
 }
 
-.App-link {
-  color: #61dafb;
+.search-input {
+  width: 100%; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-button {
+  background-color: lightslategray;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-left: 10px; 
+  cursor: pointer;
+  font-weight: bold;
 }
+
+.search-button:hover {
+  background-color: #fff;
+}
+
