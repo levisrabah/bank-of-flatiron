@@ -63,7 +63,9 @@ input[type="text"] {
   margin-top: 10px;
   width: 30em;
 }
-
+.add-transaction-btn:hover{
+  background-color: #fff;
+}
 
 .search-section {
   display: flex;
