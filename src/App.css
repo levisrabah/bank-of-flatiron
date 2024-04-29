@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
 h1 {
   background-color: indigo;
   color: white;
